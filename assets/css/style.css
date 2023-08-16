@@ -146,10 +146,10 @@ body{
 }
 
 .hero__image-img{
-    height: 200px;
+    height: 240px;
     object-fit: cover;
     width: 40%;
-    padding: 5px;
+    padding: 8px;
     border-radius: 20px;
 }
 
@@ -302,6 +302,240 @@ body{
 
 .course-premium__num-user i {
     margin-right: 5px;
+}
+
+/* -------------stats--------------- */
+
+.stats-wrap{
+    /* background-color: orange; */
+    padding: 100px 0;
+}
+
+.stats{
+
+}
+
+.stats__img-block{
+    width: 50%;
+    position: relative;
+}
+
+.stats__img{
+    object-fit: cover;
+    width: 400px;
+    height: 460px;
+    border-radius: 12px;
+    margin-left: auto;
+    display: block;
+}
+
+.stats__img-trend{
+
+}
+
+.stats__info{
+    width: 50%;
+    padding: 79px 0 0 165px
+}
+
+.stats__info-title{
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 1.3;
+    color: #000339;
+    width: 269px;
+    position: relative;
+}
+
+.stats__info-title::after{
+    content: "";
+    display: block;
+    background-color: #000339;
+    width: 41px;
+    height: 4px;
+    border-radius: 999px;
+    position: absolute;
+    left: 0;
+    top: -10px;
+}
+
+.stats__info-desc{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5a6473;
+    margin-top: 20px;
+    width: 280px;
+}
+
+.row-qty{
+    margin-top: 110px;
+    justify-content: space-around;
+}
+
+.stats__qty{
+    color: #000000;
+    font-weight: 600;
+    font-size: 6.4rem;
+    line-height: 1;
+}
+
+.stats__qty-desc{
+    color: #7b8087;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.stats__trend{
+    position: absolute;
+    top: 0;
+    left: 140px;
+    background-color: white;
+    width: 239px;
+    border-radius: 0px 0px 12px 12px;
+    padding: 45px 22px 40px;
+}
+
+.trend-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats__trend-value{
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    color: #000339;
+}
+
+.stats__trend-desc {
+    color: #a7a7a7;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+.stats__trend-separate{
+    height: 1.2px;
+    background-color: #e9e9e9;
+    margin-top: 25px;
+}
+
+
+.stats__trend-avt-group{
+    display: flex;
+}
+
+.stats__trend-avt-block{
+    margin-top: 26px;
+    display: flex;
+    gap: 16px 14px;
+    flex-wrap: wrap;
+}
+
+.stats__trend-avt{
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -3px;
+}
+
+/* --------------Feedback---------------- */
+
+.feedback-wrap{
+    background-color: #e6f0ff;
+}
+
+.feedback{
+    padding: 100px 0;
+}
+
+.feedback__heading{
+    margin-bottom: 50px;
+}
+
+.feedback__heading-title{
+    color: #000339;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.feedback__row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.feedback__desc{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #5a6473;
+}
+
+.feedback-link{
+    color: #0689ff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-right{
+    margin-left: 10px;
+}
+
+.feedback__item{
+
+}
+
+.feedback__img-link{
+
+}
+
+.feedback__img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #588ad6;
+}
+
+.feedback__body{
+    padding: 25px;
+}
+
+.feedback__body-title{
+    color: #000339;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.feedback__body-subtitle{
+    margin-top: 14px;
+    color: #a3a6ab;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
 }
 
 /* ---------Footer----------- */
