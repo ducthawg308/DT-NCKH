@@ -1,5 +1,18 @@
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d0d3da ;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--primary-color);
+}
+
 .login-wrap {
-    background-image: url(/assets/img/background-log.jpg);
+    background-image: url(./assets/img/background-log.jpg);
     background-repeat: no-repeat;
     background-position: center;
     min-height: calc(100vh - 78px);
