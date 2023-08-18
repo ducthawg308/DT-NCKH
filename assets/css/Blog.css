@@ -10,3 +10,163 @@
 ::-webkit-scrollbar-thumb:hover{
     background-color: var(--primary-color);
 }
+
+.blog-wrap{
+    background-color: #e6f0ff;
+}
+
+.blog{
+    padding: 80px 0 100px;
+}
+
+.blog__heading{
+    margin-bottom: 30px;
+}
+
+.blog__title{
+    color: #000339;
+    font-weight: 600;
+    font-size: 4.5rem;
+    line-height: 1;
+    margin: 20px 0;
+}
+
+.blog__desc{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #5a6473;
+}
+
+.blog__item{
+    padding: 26px;
+    background-color: white;
+    border-radius:16px ;
+    border: 2px solid #e8e8e8;
+    margin-top: 20px;
+}
+
+.blog__item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__item-user{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.blog__item-avt{
+    border-radius: 50%;
+    height: 30px;
+    object-fit: cover;
+    width: 30px;
+}
+
+.blog__item-name{
+    color: #292929;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.blog__item-actions-link{
+    text-decoration: none;
+    margin:0 6px;
+}
+
+.blog__item-content{
+    margin-top: 10px;
+}
+
+.blog__item-title{
+    color: #000000;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.blog__item-desc{
+    color: #5a6473;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    margin-top: 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.blog__item-footer{
+    margin-top: 24px;
+}
+
+.blog__item-course{
+    background-color: #f2f2f2;
+    border-radius: 100px;
+    color: #333;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-right: 12px;
+    padding: 6px 13px;
+    text-decoration: none;
+}
+
+.blog__item-course:hover{
+    opacity: 0.8;
+}
+
+.blog__item-days{
+    margin-right: 10px;
+}
+
+.blog__bander-wrap{
+    position: sticky;
+    top: 100px;
+}
+
+.blog__bander-item{
+    margin-top: 20px;
+}
+
+.blog__bander-item-img{
+    border-radius: 16px;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.pagination{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.pagination-item{
+    margin: 0 6px;
+}
+
+.pagination-item--active .pagination-item__link {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.pagination-item__link {
+    display: block;
+    border-radius: 4px;
+    min-width: 40px;
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #050505;
+    font-weight: 600;
+}
