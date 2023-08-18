@@ -12,7 +12,7 @@
 }
 
 .login-wrap {
-    background-image: url(./assets/img/background-log.jpg);
+    background-image: url(../img/background-log.jpg);
     background-repeat: no-repeat;
     background-position: center;
     min-height: calc(100vh - 78px);
