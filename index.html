@@ -22,7 +22,7 @@
                     <img src="./assets/img/Logo-PNG.png" alt="" class="header__navbar-img">
                 </a>
                 <ul class="header__navbar-list">
-                    <li class="header__navbar-item">
+                    <li class="header__navbar-item header__navbar-item--active">
                         <a href="" class="header__navbar-item-link">Khoá học</a>
                     </li>
                     <li class="header__navbar-item">
@@ -435,6 +435,70 @@
             </div>
         </div>
         <div class="feedback-wrap">
+            <div class="feedback">
+                <div class="grid wide">
+                    <div class="feedback__list-wrap">
+                        <div class="feedback__list">
+                            <div class="feedback__item">
+                                <div class="feedback__info">
+                                    <img src="./assets/img/avt-1.jpg" alt="" class="feedback__info-avt">
+                                    <p class="feedback__info-title">Peter Moor</p>
+                                    <p class="feedback__info-desc">Student of Web Design</p>
+                                    <div class="feedback__info-dots">
+                                        <span class="dot dot-active"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                                <div class="feedback__item-content">
+                                    <img src="./assets/img/open-quotes.svg" alt="" class="open-quotes">
+                                    <blockquote>
+                                        Not only does my resume look impressive—filled with the names and logos of world-class institutions—but these certificates also bring me closer to my career goals by validating the skills I've learned." 
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="feedback__item">
+                                <div class="feedback__info">
+                                    <img src="./assets/img/avt-2.jpg" alt="" class="feedback__info-avt">
+                                    <p class="feedback__info-title">Peter Moor</p>
+                                    <p class="feedback__info-desc">Student of Web Design</p>
+                                    <div class="feedback__info-dots">
+                                        <span class="dot"></span>
+                                        <span class="dot dot-active"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                                <div class="feedback__item-content">
+                                    <img src="./assets/img/open-quotes.svg" alt="" class="open-quotes">
+                                    <blockquote>
+                                        Not only does my resume look impressive—filled with the names and logos of world-class institutions—but these certificates also bring me closer to my career goals by validating the skills I've learned." 
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="feedback__item">
+                                <div class="feedback__info">
+                                    <img src="./assets/img/avt-3.jpg" alt="" class="feedback__info-avt">
+                                    <p class="feedback__info-title">Peter Moor</p>
+                                    <p class="feedback__info-desc">Student of Web Design</p>
+                                    <div class="feedback__info-dots">
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot dot-active"></span>
+                                    </div>
+                                </div>
+                                <div class="feedback__item-content">
+                                    <img src="./assets/img/open-quotes.svg" alt="" class="open-quotes">
+                                    <blockquote>
+                                        Not only does my resume look impressive—filled with the names and logos of world-class institutions—but these certificates also bring me closer to my career goals by validating the skills I've learned." 
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="feedback-wrap">
             <div class="grid wide">
                 <div class="row">
                     <div class="col l-12 m-12 c-12">
@@ -507,7 +571,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div class="footer">
@@ -616,5 +680,19 @@
         </div>
     </div>
 </body>
+<script>
+    const feedbackItems = document.querySelectorAll('.feedback__item');
+    const feedbackList = document.querySelector('.feedback__list');
+    let currentIndex = 0;
+
+    function slideToNextItem() {
+        currentIndex = (currentIndex + 1) % feedbackItems.length;
+        const translateValue = -currentIndex * 100;
+        feedbackList.style.transform = `translateX(${translateValue}%)`;
+    }
+
+    setInterval(slideToNextItem, 4000);
+
+</script>
 <script src="./assets/javascript/main.js"></script>
 </html>
