@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/img/Logo.png">
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/SignUp.css">
+    <link rel="stylesheet" href="./assets/css/GioiThieu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -32,14 +32,15 @@
                     <li class="header__navbar-item">
                         <a href="https://www.facebook.com/DucThang0308/" class="header__navbar-item-link">Cộng đồng</a>
                     </li>
-                    <li class="header__navbar-item">
-                        <a href="./GioiThieu.html" class="header__navbar-item-link">Giới thiệu</a>
+                    <li class="header__navbar-item header__navbar-item--active">
+                        <a href="" class="header__navbar-item-link">Giới thiệu</a>
                     </li>
                     <li class="header__navbar-item">
                         <a href="./Blog.html" class="header__navbar-item-link">Blog</a>
                     </li>
                 </ul>
                 <div class="header__navbar-actions">
+                    <a href="./SignIn.html" class="btn btn-sign-in">Sign in</a>
                     <a href="./SignUp.html" class="btn">Sign up </a>
                 </div>
             </div>
@@ -47,26 +48,105 @@
     </div>
 
     <div class="app-container">
-        <div class="login-wrap">
-            <form action="" method="POST" class="form" id="form-1">
-                <h3 class="heading">Đăng nhập</h3>
-                <p class="desc">Cùng nhau học lập trình miễn phí tại GeekyU </p>
-                     
-                <div class="spacer"></div>
-                <div class="form-group">
-                    <label for="email" class="form-label">Email</label>
-                    <input id="email" name="email" rules="required|email" type="text" placeholder="VD: email@domain.com" class="form-control">
-                    <span class="form-message"></span>
+        <div class="introduct-wrap">
+            <div class="grid wide">
+                <h1 class="introduct__title">Giới thiệu</h1>
+                <div class="introduct">
+                    <div class="introduct__media">
+                        <div class="introduct__images">
+                            <img src="./assets/img/introduct-img1.jpg" alt="" class="introduct__img">
+                            <img src="./assets/img/introduct-img2.jpg" alt="" class="introduct__img">
+                        </div>
+                    </div>
+                    <div class="introduct__content">
+                        <h2 class="text__heading">Đôi nét về GeekyU</h2>
+                        <p class="text__desc">Trong những năm gần đây, Đà Nẵng nổi lên như một địa chỉ gia công phần mềm nhiều triển vọng, đã thu hút hàng trăm công ty phần mềm về làm việc tại đây. Từ đó, nhu cầu nhân lực có chất lượng cũng đặt ra thường xuyên. Các doanh nghiệp luôn trong tình trạng thiếu nhân lực để phát triển. Trong khi mỗi năm Đà Nẵng có hơn 5,000 sinh viên CNTT tốt nghiệp và phần lớn trong số đó không tìm được việc làm đúng chuyên ngành. Nghịch lý này đến từ khoảng cách quá lớn giữa nhà trường và doanh nghiệp, đặc biệt là trong lĩnh vực phần mềm. <br> <br> Trải qua nhiều năm làm việc trong ngành phần mềm, hiểu được thực trạng nhu cầu nhân lực của ngành, nhóm chuyên gia trong ngành đã thành lập Trung tâm đào tạo Lập trình viên chuyên nghiệp GeekyU với mong muốn thu hẹp khoảng cách giữa nhà trường và doanh nghiệp, tạo cơ hội việc làm cho các bạn trẻ đã, đang và sẽ theo học ngành CNTT.</p>
+                    </div>
                 </div>
-            
-                <div class="form-group">
-                    <label for="password" class="form-label">Mật khẩu</label>
-                    <input id="password" name="password" rules="required|min:6" type="password" placeholder="Nhập mật khẩu" class="form-control">
-                    <span class="form-message"></span>
+            </div>
+        </div>
+        <div class="best-wrap">
+            <div class="grid wide">
+                <h2 class="text__heading best__heading">Ưu điểm của GeekyU</h2>
+                <div class="best">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-6">
+                            <div class="best__item">
+                                <img src="./assets/img/best-img-1.png" alt="" class="best__item-img">
+                                <h3 class="best__item-desc">Học để làm việc</h3>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="best__item">
+                                <img src="./assets/img/best-img-2.png" alt="" class="best__item-img">
+                                <h3 class="best__item-desc">Làm việc với các chuyên gia</h3>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="best__item">
+                                <img src="./assets/img/best-img-3.png" alt="" class="best__item-img">
+                                <h3 class="best__item-desc">Cập nhật kiến thức, công nghệ mới nhất</h3>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="best__item">
+                                <img src="./assets/img/best-img-4.png" alt="" class="best__item-img">
+                                <h3 class="best__item-desc">Có kinh nghiệm làm dự án khi đang học</h3>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="best__item">
+                                <img src="./assets/img/best-img-5.png" alt="" class="best__item-img">
+                                <h3 class="best__item-desc">Thời gian học ít, chi phí it, biết nhiều</h3>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="best__item">
+                                <img src="./assets/img/best-img-6.png" alt="" class="best__item-img">
+                                <h3 class="best__item-desc">Tiếp xúc sớm với các doanh nghiệp phần mền</h3>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="best__item">
+                                <img src="./assets/img/best-img-7.png" alt="" class="best__item-img">
+                                <h3 class="best__item-desc">Tự tin khi tìm việc làm</h3>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="best__item">
+                                <img src="./assets/img/best-img-8.png" alt="" class="best__item-img">
+                                <h3 class="best__item-desc">Bảo đảm nghề nghiệp trong 3 năm sau tốt nghiệp</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            
-                <button class="form-submit">Đăng nhập</button>
-                </form>  
+            </div>
+        </div>
+        <div class="teacher-wrap">
+            <div class="grid wide">
+                <div class="teacher">
+                    <div class="teacher__content">
+                        <h2 class="text__heading">Đội ngũ giảng viên!</h2>
+                        <p class="text__desc">Đội ngũ giảng viên quy tụ những chuyên gia làm việc lâu năm trong ngành phần mềm và có nhiều kinh nghiệm trong các lĩnh vực thu hút nhân lực hiện nay. Các giáo viên hầu hết có thâm niên thực hiện dự án liên quan đến khóa học và có kinh nghiệm truyền đạt, hướng dẫn để giúp bạn dễ dàng tiếp cận các kiến thức.</p>
+                    </div>
+                    <div class="teacher__media">
+                        <img src="./assets/img/teacher-img.jpg" alt="" class="teacher__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slogan-wrap">
+            <div class="grid wide">
+                <div class="slogan">
+                    <div class="slogan__content">
+                        <h2 class="text__heading">Phương pháp giảng dạy!</h2>
+                        <p class="text__desc">Phương pháp giảng dạy đa phương thức, kết hợp giữa lý thuyết, thực hành, rèn luyện kỹ năng và chia sẻ kinh nghiệm từ các chuyên gia. Với quan điểm trên chúng tôi tin tưởng sẽ giúp được nhiều bạn trẻ thành công và góp phần giải quyết những khó khăn về nhân lực cho ngành phần mềm của thành phố.</p>
+                    </div>
+                    <div class="slogan__official">
+                        <blockquote>"CHÚNG TÔI MANG ĐẾN CƠ HỘI VÀ CÙNG CÁC BẠN ĐI ĐẾN THÀNH CÔNG!</blockquote>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -177,11 +257,4 @@
     </div>
 </body>
 <script src="./assets/javascript/main.js"></script>
-<script src="./assets/javascript/Log.js"></script>
-<script>
-    var form = new Validator('#form-1');
-    form.onSubmit = function(data){
-        console.log(data);
-    }
-</script>
 </html>
