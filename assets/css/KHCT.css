@@ -1,0 +1,78 @@
+.ditail-wrap{
+    padding: 100px 0;
+    height: 5000px;
+}
+
+.ditail__header{
+
+}
+
+.ditail__heading{
+    color: #000339;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 20px 0;
+}
+
+.ditail__desc{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #5a6473;
+    width: 70%;
+}
+    
+.ditail__buy{
+    position: sticky;
+    top: 120px;
+}
+
+.ditail__buy-img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.ditail__buy-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy-body__heading{
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buy-body__button{
+    display: flex;
+    gap: 18px;
+    margin-top: 12px;
+}
+
+.btn-add-card{
+    background-color: rgba(20, 47, 151, 0.3);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.buy-body__desc{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.buy-body__desc-item{
+    color: #494949;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.buy-body__desc-item i{
+    margin-right: 10px;
+}

@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/img/Logo.png">
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/SignUp.css">
+    <link rel="stylesheet" href="./assets/css/KHCT.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
                     <img src="./assets/img/Logo-PNG.png" alt="" class="header__navbar-img">
                 </a>
                 <ul class="header__navbar-list">
-                    <li class="header__navbar-item">
+                    <li class="header__navbar-item header__navbar-item--active">
                         <a href="./index.html" class="header__navbar-item-link">Khoá học</a>
                     </li>
                     <li class="header__navbar-item">
@@ -40,6 +40,7 @@
                     </li>
                 </ul>
                 <div class="header__navbar-actions">
+                    <a href="./SignIn.html" class="btn btn-sign-in">Sign in</a>
                     <a href="./SignUp.html" class="btn">Sign up </a>
                 </div>
             </div>
@@ -47,26 +48,98 @@
     </div>
 
     <div class="app-container">
-        <div class="login-wrap">
-            <form action="" method="POST" class="form" id="form-1">
-                <h3 class="heading">Đăng nhập</h3>
-                <p class="desc">Cùng nhau học lập trình miễn phí tại GeekyU </p>
-                     
-                <div class="spacer"></div>
-                <div class="form-group">
-                    <label for="fullname" class="form-label">Username</label>
-                    <input id="fullname" name="fullname" rules="required" type="text" placeholder="VD: nguyenducthang15" class="form-control">
-                    <span class="form-message"></span>
+        <div class="ditail-wrap">
+            <div class="grid wide">
+                <div class="ditail">
+                    <div class="row">
+                        <div class="col l-8 m-12 c-12">   
+                            <div class="ditail__header">
+                                <h1 class="ditail__heading">HTML CSS Premium</h1>
+                                <p class="ditail__desc">Thực hành 5 dự án trên Figma, 300+ bài tập và thử thách, mua một lần học mãi mãi, được thiết kế và hướng dẫn bởi Đức Thắng.</p>
+                                <div class="ditail__benefit">
+                                    <h2 class="ditail__benefit-heading">Bạn sẽ học được gì?</h2>
+                                    <ul class="ditail__benefit-list">
+                                        <li class="ditail__benefit-item">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Cấu trúc file HTML</span>
+                                        </li>
+                                        <li class="ditail__benefit-item">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Tìm hiểu các thẻ meta</span>
+                                        </li>
+                                        <li class="ditail__benefit-item">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Thuộc tính trong HTML</span>
+                                        </li>
+                                        <li class="ditail__benefit-item">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Sử dụng liên kết</span>
+                                        </li>
+                                        <li class="ditail__benefit-item">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Sử dụng Emmet</span>
+                                        </li>
+                                        <li class="ditail__benefit-item">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Semantic trong HTML5</span>
+                                        </li>
+                                        <li class="ditail__benefit-item">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Sử dụng CSS Grid</span>
+                                        </li>
+                                        <li class="ditail__benefit-item">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Tìm hiểu về UI và UX</span>
+                                        </li>
+                                        <li class="ditail__benefit-item">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Kiến thức SEO cơ bản</span>
+                                        </li>
+                                        <li class="ditail__benefit-item">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Sử dụng Git, Github</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col l-4 m-12 c-12">   
+                            <div class="ditail__buy">
+                                <img src="./assets/img/course-1.jpg" alt="" class="ditail__buy-img">
+                                <div class="ditail__buy-body">
+                                    <h3 class="buy-body__heading">Premium</h3>
+                                    <div class="buy-body__button">
+                                        <a href="" class="btn btn-add-card">
+                                            <i class="fa-solid fa-cart-plus fa-beat"></i>
+                                            Thêm vào giỏ hàng
+                                        </a>
+                                        <a href="" class="btn">Mua ngay</a>
+                                    </div>
+                                    <ul class="buy-body__desc">
+                                        <li class="buy-body__desc-item">
+                                            <i class="fa-solid fa-turn-up"></i>
+                                            <span>Trình độ cơ bản</span>
+                                        </li>
+                                        <li class="buy-body__desc-item">
+                                            <i class="fa-solid fa-film"></i>
+                                            <span>Tổng số 169 bài học</span>
+                                        </li>
+                                        <li class="buy-body__desc-item">
+                                            <i class="fa-solid fa-clock"></i>
+                                            <span>Thời lượng 31 giờ 21 phút</span>
+                                        </li>
+                                        <li class="buy-body__desc-item">
+                                            <i class="fa-solid fa-battery-full"></i>
+                                            <span>Học mọi lúc mọi nơi</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
                 </div>
-            
-                <div class="form-group">
-                    <label for="password" class="form-label">Mật khẩu</label>
-                    <input id="password" name="password" rules="required|min:6" type="password" placeholder="Nhập mật khẩu" class="form-control">
-                    <span class="form-message"></span>
-                </div>
-            
-                <button class="form-submit">Đăng nhập</button>
-                </form>  
+            </div>
         </div>
     </div>
 
@@ -177,11 +250,4 @@
     </div>
 </body>
 <script src="./assets/javascript/main.js"></script>
-<script src="./assets/javascript/Log.js"></script>
-<script>
-    var form = new Validator('#form-1');
-    form.onSubmit = function(data){
-        console.log(data);
-    }
-</script>
 </html>
